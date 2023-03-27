@@ -5,7 +5,7 @@
     <title>Эффективные навыки презентации</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="@shower/ribbon/styles/styles.css" />
+    <link rel="stylesheet" href="./node_modules/@shower/ribbon/styles/styles.css" />
     <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
     <style>
         .shower {
@@ -26,7 +26,7 @@
             Анализ презентации <br />
             <span>"МосПолитех глазами иностранных студентов"</span>
         </h2>
-        <p>
+        <p class="main__text">
             <span>Презентацию сделал</span> <br />
             Каширин Дмитрий
             <br />
@@ -43,7 +43,7 @@
                 line-height: 2;
             }
 
-            p {
+            .main__text {
                 padding: 50px 0 0 0;
                 font-weight: bold;
                 line-height: 1;
@@ -111,6 +111,38 @@
         </div>
         <img src="./assets/MosPoly.png" alt="" width="200px" class="logo" />
     </section>
+    <!-- слайд 5 -->
+    <section class="slide">
+        <h2>Анализ</h2>
+        <div class="columns two">
+            <ul>
+                <img src="./assets/3slide.jfif" alt="" width="600px" />
+            </ul>
+            <ul>
+                <p style="min-width: 230px; font-size: 25px;">
+                    + текст расположен отлично <br />
+                    - не замечено
+                </p>
+            </ul>
+        </div>
+        <img src="./assets/MosPoly.png" alt="" width="200px" class="logo" />
+    </section>
+     <!-- слайд 5 -->
+     <section class="slide">
+        <h2>Анализ</h2>
+        <div class="columns two">
+            <ul>
+                <img src="./assets/4slide.jfif" alt="" width="600px" />
+            </ul>
+            <ul>
+                <p style="min-width: 230px; font-size: 25px;">
+                    + текст расположен отлично <br />
+                    - не замечено
+                </p>
+            </ul>
+        </div>
+        <img src="./assets/MosPoly.png" alt="" width="200px" class="logo" />
+    </section>
     <!-- слайд последний -->
     <section class="slide">
         <h2>Анализ последней страницы</h2>
@@ -130,7 +162,7 @@
         <img src="./assets/MosPoly.png" alt="" width="200px" class="logo" />
     </section>
     <section class="slide">
-        <h2 class="shout">Сделано при помощи Shower!</h2>
+        <h2 class="shout">Сделано на <br> HTML + CSS </h2>
         <!-- Полностью open sours на html и css -->
     </section>
 
@@ -141,7 +173,7 @@
     <div class="progress"></div>
 
     <script src="node_modules/@shower/core/dist/shower.js"></script>
-    <!-- Copyright © 2023 Yours Truly, Famous Inc. -->
+    <!-- Copyright © 2023 МосПолитех. -->
 </body>
 
 </html>
